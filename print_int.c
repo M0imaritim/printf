@@ -31,5 +31,5 @@ int print_integer(va_list args, char *buffer, unsigned int ibuf)
 		buffer[ibuf + num_digits - i - 1] = num % 10 + '0';
 		num /= 10;
 	}
-	return (i + num_digits);
+	return (ibuf + num_digits);
 }
