@@ -10,6 +10,8 @@ int (*get_printer_function(const char *id))(va_list, char *, unsigned int)
 		{"c", print_char},
 		{"s", print_string},
 		{"%", print_percent},
+		{"d", print_integer},
+		{"i", print_integer},
 		{NULL, NULL}
 	};
 

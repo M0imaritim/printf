@@ -22,6 +22,7 @@ int _putchar(char c);
 int print_percent(va_list args, char *buffer, unsigned int ibuf);
 int print_string(va_list args, char *buffer, unsigned int ibuf);
 int print_char(va_list args, char *buffer, unsigned int ibuf);
+int print_integer(va_list args, char *buffer, unsigned int ibuf);
 int (*get_printer_function(const char *id))(va_list, char *, unsigned int);
 
 #endif
